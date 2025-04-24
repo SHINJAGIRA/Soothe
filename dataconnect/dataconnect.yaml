@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "Soothe"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "postgres"
+      cloudSql:
+        instanceId: "soothe-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

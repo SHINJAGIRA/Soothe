@@ -50,7 +50,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="sm:hidden fixed top-0 left-0 right-0 bg-gray-100 dark:bg-gray-800 p-4 flex justify-between items-center z-20 border-b border-pink-300/20 shadow-sm">
+      <div className="sm:hidden fixed top-0 left-0  right-0 bg-gray-100 dark:bg-gray-800 p-4 flex justify-between items-center z-20 border-b border-pink-300/20 shadow-sm">
         <div className="text-2xl font-bold text-pink-500 tracking-tight">Soothe</div>
         <div className="flex items-center space-x-3">
           <div className="relative">
